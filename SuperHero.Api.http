@@ -1,0 +1,12 @@
+@SuperHero.Api_HostAddress = http://localhost:5267
+
+GET {{SuperHero.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{SuperHero.Api_HostAddress}}/api/SuperHero
+Accept: application/json
+
+###
+
